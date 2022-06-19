@@ -1,0 +1,27 @@
+button {
+    border: 0;
+    background-color: transparent;
+    font-family: inherit;
+    height: 5vw;
+
+  }
+  .calculator {
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20vw;
+    overflow: hidden;
+    
+  }
+  #textshow2, #textshow3, #textshow, #textshow4{
+    background-color: #222222;
+    color: #fff;
+    padding: 0.5em 0.75em;
+
+  }
+
+  .calculator__keys {
+    background-color: rgb(102, 154, 187);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+  }

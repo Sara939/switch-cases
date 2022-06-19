@@ -57,94 +57,170 @@
 //         case "/":
 //             console.log (+users1 / +users2);
 //             break;
-//     }
+// //     }
 
-// }
-// 4:
-// function printByInfo(){
-//     let userssize= document.getElementById("mysize").value;
-//     let userscolor= document.getElementById("mycolor").value;
-//     let userstext=  document.getElementById("mytext").value;
-//     let mydivelem= document.getElementById("mydiv");
+// // }
+// // 4:
+// // function printByInfo(){
+// //     let userssize= document.getElementById("mysize").value;
+// //     let userscolor= document.getElementById("mycolor").value;
+// //     let userstext=  document.getElementById("mytext").value;
+// //     let mydivelem= document.getElementById("mydiv");
 
-//     switch(userssize){
-//         case "small":
-//             mydivelem.innerHTML= userstext; 
-//             mydivelem.style.color= userscolor;
-//             mydivelem.style.fontSize= "30px";
-//             break;
-//         case "meduim":
-//             mydivelem.innerHTML= userstext; 
-//             mydivelem.style.color= userscolor;
-//             mydivelem.style.fontSize= "50px";
-//             break;
-//         case "large":
-//             mydivelem.innerHTML= userstext; 
-//             mydivelem.style.color= userscolor;
-//             mydivelem.style.fontSize= "100px";
-//             break;
-//     }
+// //     switch(userssize){
+// //         case "small":
+// //             mydivelem.innerHTML= userstext; 
+// //             mydivelem.style.color= userscolor;
+// //             mydivelem.style.fontSize= "30px";
+// //             break;
+// //         case "meduim":
+// //             mydivelem.innerHTML= userstext; 
+// //             mydivelem.style.color= userscolor;
+// //             mydivelem.style.fontSize= "50px";
+// //             break;
+// //         case "large":
+// //             mydivelem.innerHTML= userstext; 
+// //             mydivelem.style.color= userscolor;
+// //             mydivelem.style.fontSize= "100px";
+// //             break;
+// //     }
 
-// }
+// // }
 
-// 5: did on class
+// // 5: did on class
 
-// 6: colculaor:
-    // function calculat(){
-    //     let textfield2= document.getElementById("textshow2");
-    //     let op= document.getElementById("plusbtn").value
-    //     switch(op){
-    //         case "+":
-    //             textfield2.innerHTML= + document.getElementById("btnnums1").value +2 
-    //             break;
-    //         // case "-":
-    //         //     return textfield.innerHTML+= sign;
-    //         // case "/":
-    //         //     return textfield.innerHTML+= sign;
-    //         // case "*":
-    //         //     return textfield.innerHTML+= sign;
-    //     }
+// // 6: colculaor:
 
-    // }
+
+    let textfield= document.getElementById("textshow");
+    let textfield2= document.getElementById("textshow2");
+    let textfield3= document.getElementById("textshow3");
+    let textfield4= document.getElementById("textshow4");
+
+    function calculat(){
+        switch(textfield2.innerText){
+            case "+": 
+                textfield2.innerText= +(textfield.innerHTML) + +(textfield3.innerHTML);   
+                textfield.innerText = "";
+                textfield3.innerText = "";
+                break;        
+            case "-":
+                textfield2.innerText= +(textfield.innerHTML) - +(textfield3.innerHTML);   
+                textfield.innerText = "";
+                textfield3.innerText = "";
+                break;
+            case "/":
+                textfield2.innerText= +(textfield.innerHTML) / +(textfield3.innerHTML);   
+                textfield.innerText = "";
+                textfield3.innerText = "";
+                break;
+            case "*":
+                textfield2.innerText= +(textfield.innerHTML) * +(textfield3.innerHTML);   
+                textfield.innerText = "";
+                textfield3.innerText = "";
+                break;
+        }
+
+    }
 
     function numpress(num){
-        let textfield= document.getElementById("textshow");
+
         switch(num){
             case 1:
-                 return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
+                
             case 2:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 3:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 4:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 5:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 6:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 7:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 8:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 9:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case 0:
-                return textfield.innerHTML+= num;
+                if(textfield.innerHTML == ""){
+                    return textfield.innerHTML+= +num;
+                }
+                else{
+                    return textfield3.innerHTML+= +num;
+                }
             case "*":
-                return textfield.innerHTML+= num;
+                return textfield2.innerHTML= num;
             case "+":
-                return textfield.innerHTML+= num;
+                return textfield2.innerHTML= num;
             case "-":
-                return textfield.innerHTML+= num;
+                return textfield2.innerHTML= num;
             case "/":
-                return textfield.innerHTML+= num;
+                return textfield2.innerHTML= num;
             case "*":
-                return textfield.innerHTML+= num;
+                return textfield2.innerHTML= num;
             }
     
         }
+    
+        function clearac(){
+            textfield.innerText = "";
+            textfield2.innerText = "";
+            textfield3.innerText = "";
+
+        }
 
     
+
+
 
 
 

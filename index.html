@@ -23,33 +23,35 @@
     <button onclick="printByInfo()">press here to show</button>
     <div id="mydiv"></div> -->
 
-<!-- <input type="number" id="mynum"> -->
 
 <div class= "calculator">
-<div id="textshow"></div>
-<div id="textshow2"></div>
-    <div>
+       
+    <div id="textshow"></div>
+    <div id="textshow2"></div> 
+    <div id="textshow3"></div>
+
+    <div class="calculator__keys">
         <button onclick="numpress(7)">7</button>
         <button onclick="numpress(8)">8</button>
         <button onclick="numpress(9)">9</button>
         <button onclick="numpress('*')">*</button>
     </div>
-    <div>
+    <div class="calculator__keys">
         <button onclick="numpress(4)">4</button>
         <button onclick="numpress(5)">5</button>
         <button onclick="numpress(6)">6</button>
         <button onclick="numpress('-')">-</button>
     </div>
 
-    <div>
-        <button onclick="numpress(1)" id="btnnums1" value="1">1</button>
-        <button onclick="numpress(2)" id="btnnums2" value="2">2</button>
-        <button onclick="numpress(3)" id="btnnums3" value="3">3</button>
-        <input type="button" value="+" id="plusbtn" onclick="numpress('+')">
+    <div class="calculator__keys">
+        <button onclick="numpress(1)">1</button>
+        <button onclick="numpress(2)">2</button>
+        <button onclick="numpress(3)">3</button>
+        <button onclick="numpress('+')">+</button>
     </div>
 
-    <div>
-        <button>AC</button>
+    <div class="calculator__keys">
+        <button onclick="clearac()">AC</button>
         <button onclick="numpress(0)">0</button>
         <button onclick="numpress('/')">/</button>
         <button onclick="calculat()">=</button>  
