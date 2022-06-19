@@ -95,7 +95,6 @@
     let textfield= document.getElementById("textshow");
     let textfield2= document.getElementById("textshow2");
     let textfield3= document.getElementById("textshow3");
-    let textfield4= document.getElementById("textshow4");
 
     function calculat(){
         switch(textfield2.innerText){
@@ -120,9 +119,33 @@
                 textfield3.innerText = "";
                 break;
         }
-        
+
 
     }
+
+
+
+// ///////////////////////////////////onother opthion
+    // const keyscoolection= document.getElementsByClassName("keys");
+    // const keyopscoolection= document.getElementsByClassName("keysop");
+
+    // function numpress(num){
+    //     for (let numkey of keyscoolection) {
+    //         if(textfield.innerHTML == ""){
+    //             return textfield.innerHTML+= num;
+    //             }
+    //         else{
+    //             return textfield3.innerHTML+= num;
+    //             }
+    //     }
+    //     for (let numkeyop of keyopscoolection) {
+    //         return textfield2.innerHTML= num;
+
+    //     }
+    // }
+
+
+
 
     function numpress(num){
 
@@ -212,12 +235,12 @@
     
         }
     
-        function clearac(){
-            textfield.innerText = "";
-            textfield2.innerText = "";
-            textfield3.innerText = "";
+    function clearac(){
+        textfield.innerText = "";
+        textfield2.innerText = "";
+        textfield3.innerText = "";
 
-        }
+    }
 
     
 
