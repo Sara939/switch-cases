@@ -128,74 +128,74 @@
         switch(num){
             case 1:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
                 
             case 2:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 3:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 4:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 5:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 6:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 7:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 8:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 9:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case 0:
                 if(textfield.innerHTML == ""){
-                    return textfield.innerHTML+= +num;
+                    return textfield.innerHTML+= num;
                 }
                 else{
-                    return textfield3.innerHTML+= +num;
+                    return textfield3.innerHTML+= num;
                 }
             case "*":
                 return textfield2.innerHTML= num;
