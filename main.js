@@ -102,22 +102,22 @@
         switch(textfield2.innerText){
             case "+": 
             textfield2.innerText= +(textfield.innerHTML) + +(textfield3.innerHTML);   
-            textfield.innerText = "";
+            textfield.innerText =textfield2.innerText;
             textfield3.innerText = "";
                 break;        
             case "-":
                 textfield2.innerText= +(textfield.innerHTML) - +(textfield3.innerHTML);   
-                textfield.innerText = "";
+                textfield.innerText = textfield2.innerText;
                 textfield3.innerText = "";
                 break;
             case "/":
                 textfield2.innerText= +(textfield.innerHTML) / +(textfield3.innerHTML);   
-                textfield.innerText = "";
+                textfield.innerText = textfield2.innerText;
                 textfield3.innerText = "";
                 break;
             case "*":
                 textfield2.innerText= +(textfield.innerHTML) * +(textfield3.innerHTML);   
-                textfield.innerText = "";
+                textfield.innerText = textfield2.innerText;
                 textfield3.innerText = "";
                 break;
         }
