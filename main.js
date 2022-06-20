@@ -95,6 +95,8 @@
     let textfield= document.getElementById("textshow");
     let textfield2= document.getElementById("textshow2");
     let textfield3= document.getElementById("textshow3");
+   
+
 
     function calculat(){
         switch(textfield2.innerText){
@@ -125,7 +127,7 @@
 
 
 
-// ///////////////////////////////////onother opthion
+// ///////////////////////////////////onother opthion- not done yet
     // const keyscoolection= document.getElementsByClassName("keys");
     // const keyopscoolection= document.getElementsByClassName("keysop");
 
