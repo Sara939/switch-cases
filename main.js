@@ -128,24 +128,16 @@
 
 
 // ///////////////////////////////////onother opthion- not done yet
-    // const keyscoolection= document.getElementsByClassName("keys");
-    // const keyopscoolection= document.getElementsByClassName("keysop");
+
 
     // function numpress(num){
-    //     for (let numkey of keyscoolection) {
-    //         if(textfield.innerHTML == ""){
-    //             return textfield.innerHTML+= num;
-    //             }
-    //         else{
-    //             return textfield3.innerHTML+= num;
-    //             }
+    //     if(typeof num == 'number'){
+    //         return textfield.innerHTML+= num;
     //     }
-    //     for (let numkeyop of keyopscoolection) {
-    //         return textfield2.innerHTML= num;
-
+    //     else{
+    //         calculat();
     //     }
     // }
-
 
 
 
@@ -241,9 +233,6 @@
         textfield.innerText = "";
         textfield2.innerText = "";
         textfield3.innerText = "";
-        result.innerHTML= "";
-
-
     }
 
     
