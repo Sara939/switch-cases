@@ -127,7 +127,7 @@
 
 
 
-// ///////////////////////////////////onother opthion- not done yet
+// ///////////////////////////////////onother option- not done yet
 
 
     // function numpress(num){
